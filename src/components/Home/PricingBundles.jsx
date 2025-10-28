@@ -87,7 +87,7 @@ export const BundleSection = () => {
             <div className="w-full max-w-6xl relative">
                 {/* Header */}
                 <div className="text-left mb-16 sm:mb-28">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-medium text-gray-900">
+                    <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-gray-900">
                         Digital <span
                             style={{
                                 background: 'linear-gradient(90deg, rgba(17,153,141,1) 0%, rgba(15,110,179,1) 84%)',
@@ -102,15 +102,15 @@ export const BundleSection = () => {
                             </h1>
                             <p
                             style={{
-                                fontFamily: 'Neue Montreal',
+                                // fontFamily: 'Neue Montreal',
                                 fontWeight: 500,
                                 fontStyle: 'normal',
-                                fontSize: '22px',
+                                fontSize: '20px',
                                 lineHeight: '100%',
                                 letterSpacing: '2%',
                                 color: '#00000066'
                             }}
-                            className="mt-2 max-w-5xl"
+                            className="mt-2 max-w-5xl text-center ml-20"
                             >
                             Choose the perfect course bundle to accelerate your career growth and master in-demand technologies.
                             </p>
@@ -146,18 +146,33 @@ export const BundleSection = () => {
 
                             {/* Features */}
                             <div className="mb-6 space-y-2 flex-grow">
-                                {bundle.features.map((feature, idx) => (
-                                    <div key={idx} className="flex items-start gap-2 text-gray-700">
-                                        <Check className="text-teal-600 w-4 h-4 mt-0.5 flex-shrink-0" />
-                                        <span className="text-sm leading-snug">{feature.text}</span>
-                                        {feature.free && (
-                                            <span className="ml-auto text-xs font-bold text-blue-600 bg-blue-100 px-2 py-0.5 rounded-full">
-                                                FREE
-                                            </span>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
+  {bundle.features.map((feature, idx) => (
+    <div key={idx} className="text-gray-700">
+      <div className="flex items-start gap-2">
+        <Check className="text-teal-600 w-4 h-4 mt-0.5 flex-shrink-0" />
+        <span className="text-sm leading-snug">{feature.text}</span>
+      </div>
+
+      {feature.free && (
+        <span
+          className="text-xs font-bold px-0 py-0.5 w-fit mt-1 ml-0 text-left"
+          style={{
+            background:
+              'linear-gradient(90deg, rgba(17,153,141,1) 0%, rgba(15,110,179,1) 84%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            display: 'block',
+          }}
+        >
+          FREE
+        </span>
+      )}
+    </div>
+  ))}
+</div>
+
+
+
 
                             {/* Button */}
                             <button
@@ -182,9 +197,9 @@ export const BundleSection = () => {
                 </div>
 
                 {/* Navigation Button (Hidden on small screens) */}
-                <button className="absolute top-1/2 -right-4 md:-right-8 -translate-y-1/2 bg-white shadow-md rounded-full p-2 text-teal-600 hover:bg-gray-100 hidden lg:block">
+                {/* <button className="absolute top-1/2 -right-4 md:-right-8 -translate-y-1/2 bg-white shadow-md rounded-full p-2 text-teal-600 hover:bg-gray-100 hidden lg:block">
                     <ChevronRight className="w-6 h-6" />
-                </button>
+                </button> */}
 
                 {/* Pagination Dots */}
                 <div className="flex justify-center gap-2 mt-12">

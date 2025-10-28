@@ -27,14 +27,13 @@ export default function App() {
                 <div style={styles.contentContainer}>
                     {/* Title */}
                     <h1 style={styles.pageTitle}>Privacy Policies</h1>
-                    <p style={styles.subtitle}>Welcome to Errand Learn Hub (OPC private limited Company</p>
+                    <p style={styles.subtitle}>Welcome to Errand Learn Hub OPC private limited Company</p>
 
                     {/* Introduction */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Introduction</h2>
+                        <h2 style={styles.sectionHeading}>Privacy Policy</h2>
                         <p style={styles.paragraph}>
-                            Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and disclose information that results from your
-                            use of our own pages, Errand Learn Hub (OPC private limited Company.
+                            Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and disclose information that results from your use of our web pages. (Data Protection laws).
                         </p>
                     </section>
 
@@ -42,14 +41,13 @@ export default function App() {
                     <section style={styles.section}>
                         <h2 style={styles.sectionHeading}>Collection of Personal Information</h2>
                         <p style={styles.paragraph}>
-                            Errand Learn Hub is committed to protecting your privacy. When you use our Service, we may collect certain personal information from you. This
-                            information may include but is not limited to your name, contact details, phone, payment information, and other relevant data.
+                            Errand Learn Hub is committed to protecting your privacy. When you use our Service, we may collect certain personal information from you. This information may include but is not limited to your name, contact details, photos, payment information, and other relevant data
                         </p>
                     </section>
 
                     {/* Data Retention Policy */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Data Retention Policy</h2>
+                        <h2 style={styles.sectionHeading}>Data Security</h2>
                         <p style={styles.paragraph}>
                             We take the security of your data seriously. We implement reasonable measures to protect your personal information from unauthorized access,
                             disclosure, alteration, and destruction. However, please note that no method of transmission over the Internet or electronic storage is completely
@@ -60,22 +58,20 @@ export default function App() {
                     {/* Purpose of Data Collection */}
                     <section style={styles.section}>
                         <h2 style={styles.sectionHeading}>Purpose of Data Collection</h2>
-                        <p style={styles.paragraph}>The information we collect is used for the following purposes:</p>
+                        <p style={styles.paragraph}>The data we collect is used for:</p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>Enabling course enrollment and delivery;</li>
-                            <li style={styles.listItem}>Enhancing user experience with personalized recommendations;</li>
-                            <li style={styles.listItem}>Improving course updates and responding to queries;</li>
-                            <li style={styles.listItem}>Processing payments and managing billing.</li>
+                            <li style={styles.listItem}>• Enabling course enrollment and delivery;</li>
+                            <li style={styles.listItem}>• Enhancing user experience with personalized recommendations;</li>
+                            <li style={styles.listItem}>• Improving course updates and responding to queries;</li>
+                            <li style={styles.listItem}>• Processing payments and managing billing.</li>
                         </ul>
                     </section>
 
                     {/* Data Sharing */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Data Sharing</h2>
+                        <h2 style={styles.sectionHeading}>Use of Personal Information</h2>
                         <p style={styles.paragraph}>
-                            We use the collected information for various purposes, including processing purchases, providing customer support, improving our services, and
-                            ensuring smooth We run the collected information for various purposes, including processing purchases, providing customer support, improving our
-                            services, and enabling renewal.
+                            We use the collected information for various purposes, including processing purchases, providing customer support, improving our services, and sending relevant We use the collected information for various purposes, including processing purchases, providing customer support, improving our services, and sending relevant
                         </p>
                     </section>
 
@@ -84,8 +80,8 @@ export default function App() {
                         <h2 style={styles.sectionHeading}>Data Sharing</h2>
                         <p style={styles.paragraph}>We respect your privacy and share data only when necessary:</p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>Service Providers: Payment processors, analytics services, or email providers.</li>
-                            <li style={styles.listItem}>Legal Compliance: To comply with legal requirements or respond to lawful requests.</li>
+                            <li style={styles.listItem}>• Service Providers: To assist with hosting, analytics, and payment processing.</li>
+                            <li style={styles.listItem}>• Legal Compliance: To comply with legal requirements or respond to lawful requests.</li>
                         </ul>
                     </section>
 
@@ -94,20 +90,20 @@ export default function App() {
                         <h2 style={styles.sectionHeading}>User Rights</h2>
                         <p style={styles.paragraph}>You have control over your data regarding your data:</p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>Access and Rectification: View and update your personal data through your account.</li>
-                            <li style={styles.listItem}>Deletion Request: Data deletion, subject to legal or contractual obligations.</li>
-                            <li style={styles.listItem}>Opt-Out Data: Unsubscribe from marketing communications at any time.</li>
+                            <li style={styles.listItem}>• Access and Rectification: View and update your personal data through your account.</li>
+                            <li style={styles.listItem}>• Deletion Request: Data deletion, subject to legal or contractual obligations.</li>
+                            <li style={styles.listItem}>• Opt-Out Data: Unsubscribe from marketing communications at any time.</li>
                         </ul>
                     </section>
 
                     {/* Data Security */}
                     <section style={styles.section}>
                         <h2 style={styles.sectionHeading}>Data Security</h2>
-                        <p style={styles.paragraph}>We safeguard your data using industry-standard measures:</p>
+                        <p style={styles.paragraph}>We use robust measures to safeguard your data:</p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>Encryption: Secure transfer data, such as payment details, during transmission.</li>
-                            <li style={styles.listItem}>Access Controls: Restricted team access to authorized personnel only.</li>
-                            <li style={styles.listItem}>Regular Audits: Conduct routine checks to ensure compliance with security standards.</li>
+                            <li style={styles.listItem}>• Encryption: Secure transfer data, such as payment details, during transmission.</li>
+                            <li style={styles.listItem}>• Access Controls: Restricted team access to authorized personnel only.</li>
+                            <li style={styles.listItem}>• Regular Audits: Conduct routine checks to ensure compliance with security standards.</li>
                         </ul>
                     </section>
 
@@ -116,14 +112,14 @@ export default function App() {
                         <h2 style={styles.sectionHeading}>Cookies and Tracking Technologies</h2>
                         <p style={styles.paragraph}>Our Platform uses cookies to:</p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>Save user preferences for improved navigation.</li>
-                            <li style={styles.listItem}>Analyze website traffic (via Google Analytics and Platform partners).</li>
+                            <li style={styles.listItem}>• Save user preferences for improved navigation.</li>
+                            <li style={styles.listItem}>• Analyze website traffic (via Google Analytics and Platform partners).</li>
                         </ul>
                     </section>
 
                     {/* View Retention */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>View Retention</h2>
+                        <h2 style={styles.sectionHeading}>Data Retention</h2>
                         <p style={styles.paragraph}>
                             We retain data as long as necessary to fulfill the purposes outlined in this Privacy Policy. Academic records may be stored for ten-year post-enrollment,
                             Itown may request anti-deletion, subject to legal or contractual obligations.
@@ -145,10 +141,14 @@ export default function App() {
 
                     {/* Contact */}
                     <section style={styles.section}>
+                        <h2 style={styles.sectionHeading}>Contact Information</h2>
                         <p style={styles.paragraph}>If you have any questions about this policy, please contact us.</p>
-                        <p style={styles.paragraph}>Email: team@errandlearn.com</p>
-                        <p style={styles.paragraph}>Phone: +91-8886568849</p>
-                        <p style={styles.paragraph}>Address: Real Infrastaten, Gandhli Nagar, Vijayawada, India- 520012</p>
+                        
+                        <ul style={styles.list}>
+                            <li style={styles.listItem}>• Email: learnhubcareers@gmail.com</li>
+                            <li style={styles.listItem}>• Address:Rajam, Srikakulam, Andhra Pradesh, India, 532127</li>
+                        </ul>
+                        
                     </section>
 
                     {/* Footer */}
@@ -179,7 +179,7 @@ const styles = {
     headerContainer: {
         maxWidth: '1200px',
         // margin: '0 ',
-        padding: '0 330px',
+        padding: '6px 300px',
     },
     logo: {
         display: 'flex',
@@ -187,15 +187,15 @@ const styles = {
         gap: '10px',
     },
     logoIcon: {
-        width: '30px',
-        height: '30px',
+        width: '40px',
+        height: '40px',
     },
     logoText: {
         display: 'flex',
         flexDirection: 'column',
     },
     logoTitle: {
-        fontSize: '16px',
+        fontSize: '24px',
         fontWeight: '600',
         fontStyle: 'italic',
         color: '#1a1a1a',
@@ -205,7 +205,9 @@ const styles = {
     // Main Content
     mainContent: {
         padding: '10px 24px',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#f9f9f9ff',
+        boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.15)',
+        margin:'0px 300px'
     },
     contentContainer: {
         maxWidth: '800px',

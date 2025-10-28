@@ -27,7 +27,7 @@ export default function TermsAndConditions() {
                 <div style={styles.contentContainer}>
                     {/* Title */}
                     <h1 style={styles.pageTitle}>Terms and Conditions</h1>
-                    <p style={styles.subtitle}>Welcome to Errand Learn Hub (OPC private limited Company)</p>
+                    <p style={styles.subtitle}>Welcome to Errand Learn Hub OPC private limited Company</p>
 
                     {/* Introduction */}
                     <section style={styles.section}>
@@ -36,23 +36,23 @@ export default function TermsAndConditions() {
                             These Terms of Service govern your enrollment in the courses through the errandlearnhub.com website.
                         </p>
                         <p style={styles.paragraph}>
-                            By accessing and using the Service, you accept and agree to be bound by the terms and provisions of this agreement. If you do not want to agree to these Terms of Service, you must not access or use the Service.
+                            Please read these terms of use carefully before you start to use the site. By using our site, you indicate that you accept these terms of use and that you agree to abide by them. If you do not agree to these terms of use, please refrain from using our site.
                         </p>
                     </section>
 
                     {/* Account Registration */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Account Registration</h2>
+                        <h2 style={styles.sectionHeading}>Communications</h2>
                         <p style={styles.paragraph}>
-                            By using our Service, you agree to adhere to the conditions, registering or uninterrupted with any third information is not legal. However, you may request changes to your profile. Please connect with our customer support team. If such need arises, it lies at the Company's absolute discretion whether any changes to the profile can be accepted.
+                           By using our Service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing at errandlearnhub.com.
                         </p>
                     </section>
 
                     {/* Course Access and Restrictions */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Course Access and Restrictions</h2>
+                        <h2 style={styles.sectionHeading}>Course Materials</h2>
                         <p style={styles.paragraph}>
-                            Enrolled users hold limited and non-exclusive rights to your courses we approach. These courses are designed to continue your learning experience by teaching us about the content available on the Platform. However, enrolled users cannot share their resources or distribute publicly, digitally including but not limited to sharing any of the course account credentials to anyone.
+                           Errand Learn Hub provides pre-recorded videos as part of our course materials. These videos are designed to enhance your learning experience by offering comprehensive content that you can access at your convenience. Our commitment to delivering quality education includes providing you with engaging and informative pre-recorded video content.
                         </p>
                     </section>
 
@@ -61,68 +61,79 @@ export default function TermsAndConditions() {
 
                     {/* Course Restrictions */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Course Restrictions</h2>
+                        <h2 style={styles.sectionHeading}>1. General Restrictions</h2>
                         <p style={styles.paragraph}>
-                            The following uses are strictly prohibited by the company for safety, rights, and professional boundaries:
+                            1.1 You may use the Service solely for lawful purposes and in strict compliance with these Terms and Conditions.
                         </p>
-                        <ul style={styles.list}>
-                            <li style={styles.listItem}>It is the opinion of us solely, but learning at the service level.</li>
-                            <li style={styles.listItem}>To resell, rent, lease, loan, sublicense, distribute, or otherwise transfer rights to the Service.</li>
-                            <li style={styles.listItem}>To download (excluding course materials made available for download), copy, store (other than for purposes of caching or temporary storage), modify, or redistribute.</li>
-                            <li style={styles.listItem}>To decompile, reverse engineer, or disassemble the Service, except as may be permitted by applicable law.</li>
-                            <li style={styles.listItem}>To link to, frame, mirror, or otherwise access through or automated means from any other Service or application to launch or run in conjunction with the Service.</li>
-                            <li style={styles.listItem}>To attempt to obtain the login details of any other Errand Learn Hub user or individual action.</li>
-                        </ul>
+                        <p style={styles.paragraph}>
+                            1.2 You agree not to utilize the Service in any manner that.
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.3 Violates any applicable local, national, or international laws, regulations, or ordinances.
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.4 Exploits, endangers, or harms minors in any form or manner.
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.5 Transmits unsolicited advertising, promotional materials, or other forms of solicitation, including but not limited to "junk mail," "chain letters," or "spam."
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.6 Impersonates the Company, its employees, other users, or any third party.
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.7 Infringes upon the legal rights of others or facilitates any unlawful, fraudulent, or malicious activity.
+                        </p>
+                        <p style={styles.paragraph}>
+                            1.8 Restricts, disrupts, or otherwise inhibits any other user's enjoyment or use of the Service.
+                        </p>
                     </section>
 
                     {/* Affiliate Marketing */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Affiliate Marketing</h2>
-                        <ul style={styles.list}>
-                            <li style={styles.listItem}>It may be Anti-Corruption & SPAM OR FRAUD limiting, misleading, or deceptive, or appear deceptive or otherwise party orally includes any of the firm, including commercial emails to users and entities that don't want them.</li>
-                            <li style={styles.listItem}>It may not violate the rights of any third party, including trade, trade, copyright, trade, identity rights, privacy, or public rights.</li>
-                        </ul>
+                        <h2 style={styles.sectionHeading}>2. Additional Limitations</h2>
+                        <p style={styles.paragraph}>
+                            2.1 Use Service in any manner that could disable, overburden, damage, or impair Service or interfere with any other party’s use of Service, including their ability to engage in real time activities through Service.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.2 Use any robot, spider, or other automatic device, process, or means to access Service for any purpose, including monitoring or copying any of the material on Service.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.3 Use any manual process to monitor or copy any of the material on Service or for any other unauthorized purpose without our prior written consent.
+                        </p>
+                        <p style={styles.paragraph}>
+                           2.4 Use any device, software, or routine that interferes with the proper working of Service.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.5 Introduce any viruses, trojan horses, worms, logic bombs, or other material which is malicious or technologically harmful.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.6 Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of Service, the server on which Service is stored, or any server, computer, or database connected to Service.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.7 Attack Service via a denial-of-service attack or a distributed denial-of-service attack.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.8 Take any action that may damage or falsify Company rating.
+                        </p>
+                        <p style={styles.paragraph}>
+                            2.9 Otherwise attempt to interfere with the proper working of Service.
+                        </p>
                     </section>
 
                     {/* Company's Rights to Content */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Company's Rights to Content</h2>
+                        <h2 style={styles.sectionHeading}>Accounts</h2>
                         <p style={styles.paragraph}>
-                            By submitting feedback, comments, or other content to the Service, you grant us a non-exclusive, worldwide license to use, reproduce, modify, publish, distribute, and display your submitted content for any purpose related to our Service.
+                            When you create an account with us, you guarantee that you are above the age of 14, and that the information you provide us is accurate, complete, and current at all times. Inaccurate, incomplete, or obsolete information may result in the immediate termination of your account on Service.
+You are responsible for maintaining the confidentiality of your account and password, including but not limited to the restriction of access to your computer and/or account. You agree to accept responsibility for any and all activities or actions that occur under your account and/or password, whether your password is with our Service or a third-party service. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
+You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trademark that is subject to any rights of another person or entity other than you, without appropriate authorization. You may not use as a username any name that is offensive, vulgar or obscene.
+We reserve the right to refuse service, terminate accounts, remove or edit content, or cancel orders in our sole discretion.
                         </p>
-                        <p style={styles.paragraph}>
-                            You represent and warrant that: (i) the content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, (ii) the posting of your content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights, or any other rights of any person.
-                        </p>
-                        <p style={styles.paragraph}>
-                            We are not responsible for maintaining any content that you provide us, and we may delete or remove such content at our discretion.
-                        </p>
+                        
                     </section>
 
                     {/* Payments */}
-                    <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Payments</h2>
-                        <p style={styles.paragraph}>
-                            Payment for courses must be made in advance at the time of enrollment. You agree that we are flexible with providing you services as we provided, regardless of whether you choose to continue using those services.
-                        </p>
-                        <p style={styles.paragraph}>
-                            We reserve the right to change our pricing at any time. If you purchased a course at a discounted price through a promotional offer, you may not request a refund based on a future price reduction or promotional offer.
-                        </p>
-                        <p style={styles.paragraph}>
-                            You are responsible for (i) overseeing the responsibilities of your account and password (ii) COURSE ACCESS PROVIDED IS ALLOCATED ACCESS TO A DURATION OF COURSE (2 and) (iii) any activity under your account (even if such activities are not committed by you). We are not liable or responsible for any loss or damage due to your negligence.
-                        </p>
-                        <p style={styles.paragraph}>
-                            You may not use anyone else's account at any time. The Company reserves the right to refuse service, terminate accounts, or cancel orders at its sole discretion.
-                        </p>
-                        <p style={styles.paragraph}>
-                            If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Service (or any portion thereof).
-                        </p>
-                        <p style={styles.paragraph}>
-                            The rights of enrolled persons or online four-hour two-visitor discounted work indications. The rules can be in a specified walk-down hard style of reference.
-                        </p>
-                        <p style={styles.paragraph}>
-                            You will be notified via the email address you provided at registration if we choose to disable or cancel your account, subject to applicable law. We may, in our sole discretion, refuse to offer Service to anyone for any reason at any time.
-                        </p>
-                    </section>
+                    
 
                     {/* Intellectual Property */}
                     <h2 style={styles.mainHeading}>Intellectual Property</h2>
@@ -157,7 +168,7 @@ export default function TermsAndConditions() {
 
                     {/* DMCA Notice */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>DMCA Notice</h2>
+                        <h2 style={styles.sectionHeading}>Accountability for Misrepresentation</h2>
                         <p style={styles.paragraph}>
                             If you believe that content available on or through our Service infringes one or more of your copyrights, please immediately notify us by providing our DMCA agent with the information specified below.
                         </p>
@@ -173,27 +184,29 @@ export default function TermsAndConditions() {
                             If you believe that content available on or through our Service infringes one or more of your copyrights, please immediately notify us by providing a designated copyright agent with our email address.
                         </p>
                         <ul style={styles.list}>
-                            <li style={styles.listItem}>A physical or electronic signature of the copyright owner or a person authorized to act on their behalf.</li>
-                            <li style={styles.listItem}>A detailed description of the work claimed to have been infringed, or if multiple copyrighted works are covered by a single notification, a representative list of such works.</li>
-                            <li style={styles.listItem}>A description of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material.</li>
-                            <li style={styles.listItem}>A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or applicable law.</li>
-                            <li style={styles.listItem}>A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the copyright owner.</li>
+                            <li style={styles.listItem}>• A physical or electronic signature of the copyright owner or a person authorized to act on their behalf.</li>
+                            <li style={styles.listItem}>• A detailed description of the work claimed to have been infringed, or if multiple copyrighted works are covered by a single notification, a representative list of such works.</li>
+                            <li style={styles.listItem}>• A description of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material.</li>
+                            <li style={styles.listItem}>• A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or applicable law.</li>
+                            <li style={styles.listItem}>• A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the copyright owner.</li>
                         </ul>
                     </section>
 
                     {/* Counter Notification */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Counter Notification</h2>
+                        <h2 style={styles.sectionHeading}>Contact Information</h2>
                         <p style={styles.paragraph}>
-                            EXAMPLE Content used (someone else) believes in DMCA to submit a designated Copyright Agent will send all notification email links.
+                            All DMCA notices should be directed to the Company’s designated Copyright Agent via email at errandlearnhub.com.
                         </p>
                     </section>
 
                     {/* Repeat Infringer Policy */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Repeat Infringer Policy</h2>
+                        <h2 style={styles.sectionHeading}>Termination</h2>
                         <p style={styles.paragraph}>
-                            The Company's policy is to terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others, including, without limitation, termination.
+                            We may terminate or suspend your account and bar access to Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of Terms.
+If you wish to terminate your account, you may simply discontinue using Service.
+All provisions of Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
                         </p>
                     </section>
 
@@ -207,51 +220,39 @@ export default function TermsAndConditions() {
 
                     {/* Links To Other Sites */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Links To Other Sites</h2>
+                        <h2 style={styles.sectionHeading}>Any offences</h2>
                         <p style={styles.paragraph}>
-                            Our Service may contain links to third-party websites or services that are not owned or controlled by us. We have no control over the content or privacy policies of such third-party sites. The inclusion of any link does not imply endorsement by the Company. We are not responsible for the content or services of any linked site or any link contained in a linked site.
+                            You must not knowingly introduce viruses, trojans, worms, logic bombs, or other material which is malicious or technologically harmful. You must not attempt to gain unauthorized access to our site, the server on which our site is stored or any server, computer, or database connected to our site. You must not attack our site via a denial-of-service attack or a distributed denial-of-service attack. By breaching this provision, you are committing a criminal offense under the Computer Misuse Act 1990. We will report any such breach to the relevant law enforcement authorities and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use our site will cease immediately. We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of our site or to your downloading of any material posted on it, or on any website linked to it.
                         </p>
-                        <p style={styles.paragraph}>
-                            You acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such third-party websites or services.
-                        </p>
-                        <p style={styles.paragraph}>
-                            We strongly advise you to read the terms and conditions and privacy policies of any third-party websites or services that you visit. We do not control third-party websites and are not responsible for their content.
-                        </p>
+                        
                     </section>
 
                     {/* Limitation Of Liability */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Limitation Of Liability</h2>
+                        <h2 style={styles.sectionHeading}>Our Site Updates Regularly</h2>
                         <p style={styles.paragraph}>
-                            We welcome and appreciate your comments and respect the company grows from it. If any party user cannot access other web either in terms back of the consent-related with the supported information used case.
+                            We update our site regularly and may change the content at any time. It is our right to suspend access to our site, or close it indefinitely. If any of the material on our site is out of date, we are under no obligation to update such material.
                         </p>
                     </section>
 
                     {/* Indemnification */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Indemnification</h2>
+                        <h2 style={styles.sectionHeading}>Any Concerns</h2>
                         <p style={styles.paragraph}>
-                            You agree to defend, indemnify, and hold harmless the Company and its affiliates, and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Service.
+                            If you have any concerns about any material on our site, please contact us by email.
                         </p>
                     </section>
 
                     {/* Governing Law */}
                     <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Governing Law</h2>
+                        <h2 style={styles.sectionHeading}>Revisions</h2>
                         <p style={styles.paragraph}>
-                            These Terms shall be governed and construed in accordance with the INDIA applicable without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have had between us regarding Service.
+                            We may revise these terms of use at any time by amending this page. You are expected to check this page from time to time and take notice of any changes, as they are binding on you. Some of the provisions contained in these terms of use may also be superseded by provisions or notices published elsewhere on our site.
                         </p>
                     </section>
 
                     {/* Contact Us */}
-                    <section style={styles.section}>
-                        <h2 style={styles.sectionHeading}>Contact Us</h2>
-                        <p style={styles.paragraph}>
-                            If you have any questions about these Terms, please contact us at:
-                        </p>
-                        <p style={styles.paragraph}>Email: team@errandlearn.com</p>
-                        <p style={styles.paragraph}>Phone: +91-8886568849</p>
-                    </section>
+                    
 
                     {/* Footer */}
                     <footer style={styles.footer}>
@@ -266,6 +267,7 @@ export default function TermsAndConditions() {
 const styles = {
     pageWrapper: {
         minHeight: '100vh',
+        // boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.15)',
         width: '100vw',
         backgroundColor: '#ffffff',
         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
@@ -280,7 +282,7 @@ const styles = {
     headerContainer: {
         maxWidth: '1200px',
         // margin: '0 auto',
-        padding: '0 340px',
+        padding: '0 300px',
     },
     logo: {
         display: 'flex',
@@ -288,15 +290,15 @@ const styles = {
         gap: '10px',
     },
     logoIcon: {
-        width: '30px',
-        height: '30px',
+        width: '40px',
+        height: '40px',
     },
     logoText: {
         display: 'flex',
         flexDirection: 'column',
     },
     logoTitle: {
-        fontSize: '16px',
+        fontSize: '24px',
         fontWeight: '500',
         fontStyle: 'italic',
         color: '#1a1a1a',
@@ -306,7 +308,9 @@ const styles = {
     // Main Content
     mainContent: {
         padding: '10px 24px',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#f9f9f9ff',
+        boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.15)',
+        margin:'0px 300px'
     },
     contentContainer: {
         maxWidth: '800px',
@@ -356,6 +360,8 @@ const styles = {
         lineHeight: '1.7',
         marginBottom: '12px',
         textAlign: 'justify',
+        padding:'0px',
+        margin:'0px'
     },
 
     // Lists

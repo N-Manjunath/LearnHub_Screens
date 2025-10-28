@@ -136,63 +136,58 @@ export default function Header() {
 
   return (
     // FIX 1: Removed min-h-screen and min-w-full
-    <div className="bg-gray-50 font-sans">
+    <div className="bg-gray-50 font-sans relative">
 
-      {/* Hero Section with Overlap Container */}
-      <div className="relative pb-96 md:pb-64">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-r from-teal-500 via-cyan-600 to-blue-600 pl-30 pt-20 pb-44 md:pt-24 md:pb-56">
-          <div className="container mx-auto px-6 lg:px-20 text-white">
-            <h1 className="text-3xl md:text-4xl font-medium leading-snug mb-6 text-center md:text-left max-w-2xl">
-              Welcome to <span className="font-bold">Errand Learn Hub</span>, your trusted partner as a education and empowerment.
-            </h1>
-            <p className="text-base font-medium leading-relaxed text-gray-100 text-center md:text-left max-w-2xl">
-              At Errand Learn Hub, we are passionate about transforming the learning experience for Pharm D students, budding entrepreneurs, and visionaries looking to turn their dreams into impactful ventures. Our platform combines quality education, practical insights, and entrepreneurial mentorship to help you thrive in today's competitive world.
-            </p>
-          </div>
-        </section>
+  {/* Hero Section */}
+  <section
+    className="pt-20 pb-40 md:pt-24 md:pb-34"
+    style={{
+      background: 'linear-gradient(90deg, rgba(17,153,141,1) 0%, rgba(15,110,179,1) 84%)',
+    }}
+  >
+    <div className="container mx-auto px-6 lg:px-18 text-white">
+      <h1 className="text-3xl md:text-4xl font-medium leading-snug mb-6 text-center md:text-left max-w-2xl">
+        Welcome to <span className="font-bold">Errand Learn Hub</span>, your trusted partner as a education and empowerment.
+      </h1>
+      <p className="text-base font-medium leading-relaxed text-gray-100 text-center md:text-left max-w-2xl">
+        At Errand Learn Hub, we are passionate about transforming the learning experience for Pharm D students, budding entrepreneurs, and visionaries looking to turn their dreams into impactful ventures. Our platform combines quality education, practical insights, and entrepreneurial mentorship to help you thrive in today's competitive world.
+      </p>
+    </div>
+  </section>
 
-        {/* Stats Section - Overlapping */}
-        {/*
-          FIX 2: Changed "-bottom-48 md:bottom-0 ... mb-5"
-          TO "bottom-5 md:bottom-12 ..."
-          This brings the card INSIDE the parent container's padding, fixing the overlap.
-        */}
-        <section className="bg-white rounded-3xl p-6 md:p-12 absolute bottom-5 md:bottom-12 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] max-w-5xl shadow-lg z-10">
-          <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-medium mb-2 bg-gradient-to-r from-[#11998D] to-[#0F6EB3] bg-clip-text text-transparent">
-  Unlock Your Potential
-</h2>
+  {/* Stats Section */}
+  <section className="bg-white rounded-3xl p-6 md:p-10 shadow-lg max-w-6xl mx-auto -mt-24 relative z-10">
+    <div className="text-center">
+      <h2 className="text-3xl md:text-4xl font-medium mb-2 bg-gradient-to-r from-[#11998D] to-[#0F6EB3] bg-clip-text text-transparent">
+        Unlock Your Potential
+      </h2>
 
-            <p className="text-base text-black-500 mb-12">
-              With India's Fastest- Growing Digital Skill Platform
-            </p>
+      <p className="text-base text-gray-700 mb-12">
+        With India's Fastest- Growing Digital Skill Platform
+      </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
-              {/* Stat Card 1 */}
-              <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto pb-5">
+        {/* Stat 1 */}
+        <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
+          <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">150K+</div>
+          <div className="text-lg font-normal leading-snug">Students with us</div>
+        </div>
 
-                <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">150K+</div>
-                <div className="text-lg font-normal leading-snug">Students with us</div>
-              </div>
+        {/* Stat 2 */}
+        <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
+          <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">45+</div>
+          <div className="text-lg font-normal leading-snug">Trainers Onboard</div>
+        </div>
 
-              {/* Stat Card 2 */}
-              <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
-
-                <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">45+</div>
-                <div className="text-lg font-normal leading-snug">Trainers Onboard</div>
-              </div>
-
-              {/* Stat Card 3 */}
-              <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
-
-                <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">100+</div>
-                <div className="text-lg font-normal leading-snug">Skilled Offered</div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Stat 3 */}
+        <div className="bg-gradient-to-b from-[#11998D] to-[#0F6EB3] rounded-3xl py-12 px-8 text-white shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0F6EB3]/30">
+          <div className="text-5xl md:text-6xl font-bold mb-3 leading-none">100+</div>
+          <div className="text-lg font-normal leading-snug">Skilled Offered</div>
+        </div>
       </div>
     </div>
+  </section>
+</div>
+
   );
 }
