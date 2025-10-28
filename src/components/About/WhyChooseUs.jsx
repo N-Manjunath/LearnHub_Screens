@@ -54,8 +54,8 @@ const FeatureCard = ({ title, description, imageUrl }) => {
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-[#F0FDFA] pb-10 sm:pb-16">
-      <div className="container mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+    <section className="bg-[#F0FDFA]">
+      <div className="container mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center">
           <span className="text-3xl font-medium text-transparent bg-clip-text 
             bg-gradient-to-r  from-[#11998D]         
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
              sm:text-4xl pt-12">
             Why Choose Us?
           </span>
-          <p className="mt-4 text-base sm:text-lg max-w-3xl mx-auto text-center text-[#000000B2] font-medium leading-relaxed tracking-wide">
+          <p className="mt-4 text-base sm:text-lg max-w-3xl mx-auto text-center text-[#000000B2] font-medium leading-[30px] tracking-[4%">
             Empowering the next generation of pharmacy professionals with specialized content,
             continuous guidance, and affordable access to quality education.
           </p>

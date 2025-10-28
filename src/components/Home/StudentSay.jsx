@@ -27,11 +27,14 @@ const StarRating = ({ rating, totalStars = 5 }) => {
                 return (
                     <span key={star}>
                         {rating >= star ? (
-                            <Star className="text-yellow-500" />
+                            // FIX: Added 'fill-yellow-500'
+                            <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
                         ) : rating >= star - 0.5 ? (
-                            <StarHalf className="text-yellow-500" />
+                            // FIX: Added 'fill-yellow-500'
+                            <StarHalf className="h-5 w-5 text-yellow-500 fill-yellow-500" />
                         ) : (
-                            <Star className="text-gray-300" />
+                            // This remains an outline, which looks good for "empty"
+                            <Star className=" h-5 w-5 text-gray-300" />
                         )}
                     </span>
                 );
@@ -91,7 +94,7 @@ const StudentSay = () => {
                     />
                     <div className="text-center pt-4 md:text-left">
                         <StarRating rating={rating} />
-                        <p className="text-base md:text-2xl italic font-normal leading-snug md:leading-relaxed tracking-wide text-[#000000B2] mt-2 mb-4">
+                        <p className="text-base md:text-2xl italic font-normal leading-snug md:leading-[30px] tracking-[6%] text-[#000000B2] mt-2 mb-4">
                             {/* FIX: Changed tracking-[6%] to tracking-wide. 6% is very wide and can be hard to read. 'tracking-wide' (0.025em) is more standard. */}
                             " {quote} "
                         </p>
@@ -130,3 +133,10 @@ const StudentSay = () => {
 };
 
 export default StudentSay;
+
+
+
+
+
+
+
