@@ -15,8 +15,8 @@ const Navbar = () => {
 
     const navItems = [
         { name: 'Home', path: '/' },
-        { name: 'Contact Us', path: '/contact' },
-        { name: 'About', path: '/about' }
+        { name: 'About Us', path: '/about' },
+        { name: 'Contact Us', path: '/contact' }
     ];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,12 +26,12 @@ const Navbar = () => {
     };
 
     return (
-        <header className="py-2 px-6 md:px-12 shadow-md bg-white sticky top-0 z-50">
+        <header className="py-2 px-6 md:px-12 md:pl-10 shadow-md bg-white sticky top-0 z-50">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
 
                 {/* Logo and Title Section (link to home route) */}
                 <Link to="/" className="flex items-center cursor-pointer">
-                    <Logo className="w-15 h-15 object-contain" />
+                    <Logo className="w-15 h-15 object-contain scale-125" />
                     <div className="text-xl md:text-2xl text-black font-serif ml-2">
                         Errand Learn Hub
                     </div>
@@ -47,8 +47,14 @@ const Navbar = () => {
                                 key={item.name}
                                 to={item.path}
                                 className={`
-                                    text-gray-700 hover:text-black hover:underline hover:decoration-2 hover:decoration-[#259F94] underline-offset-4 transition duration-200
-                                    ${isActive ? 'font-bold text-black underline decoration-2 decoration-[#259F94]' : ''}
+                                    relative text-gray-700 transition-colors duration-200
+                                    after:content-[''] after:absolute after:left-0 after:-bottom-1 
+                                    after:h-[2px] after:bg-[#259F94] 
+                                    after:transition-all after:duration-300
+                                    ${isActive
+                                        ? 'font-bold text-black after:w-full'
+                                        : 'hover:text-black after:w-0 hover:after:w-full'
+                                    }
                                 `}
                             >
                                 {item.name}
@@ -57,9 +63,12 @@ const Navbar = () => {
                     })}
                     <Link
                         to="/login"
-                        className="bg-[#11998d] hover:bg-[#0f6eb3] text-white px-5 py-2 rounded-lg text-sm font-semibold transition duration-300 whitespace-nowrap"
-                        style={{ background: `linear-gradient(90deg, #11998d 0%, #0f6eb3 100%)` }}
-
+                        className="
+                            text-white px-5 py-2 rounded-lg text-sm font-semibold 
+                            transition-all duration-300 whitespace-nowrap
+                            bg-gradient-to-r from-[#11998d] to-[#0f6eb3] 
+                            hover:from-[#0f6eb3] hover:to-[#11998d]
+                        "
                     >
                         Login
                     </Link>
@@ -102,8 +111,13 @@ const Navbar = () => {
                         )
                     })}
                     <Link
-                        to="#login"
-                        className="text-center bg-[#11998d] hover:bg-[#0f6eb3] text-white px-5 py-2 rounded-lg text-base font-semibold transition duration-300 mt-2"
+                        to="/login"
+                        className="
+                            text-center text-white px-5 py-2 rounded-lg text-base font-semibold 
+                            transition-all duration-300 mt-2
+                            bg-gradient-to-r from-[#11998d] to-[#0f6eb3] 
+                            hover:from-[#0f6eb3] hover:to-[#11998d]
+                        "
                         onClick={toggleMenu}
                     >
                         Login

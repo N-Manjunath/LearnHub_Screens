@@ -46,11 +46,11 @@ export default function AutoCarousel() {
     };
 
     return (
-        <div className="w-full md:h-screen ">
+        <div className="w-full md:h-[calc(100vh-76px)]">
             <div className="relative overflow-hidden sm:h-80 md:h-full">
                 {/* Carousel Wrapper */}
                 <div
-                    className="flex transition-transform duration-700 ease-in-out sm:h-80 md:h-full"
+                    className="flex transition-transform duration-700 ease-in-out sm:h-80 md:h-full "
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                     {slides.map((slide) => (

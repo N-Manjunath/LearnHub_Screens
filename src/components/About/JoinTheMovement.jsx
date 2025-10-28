@@ -2,12 +2,12 @@ import React from 'react';
 
 const JoinTheMovement = () => {
   return (
-    <section className="bg-teal-50 pb-16 sm:pb-24 mb-20">
+    <section className="mb-60">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="border border-black rounded-lg px-6 py-6 md:px-8 md:py-8">
+        <div className="border border-[#000000] rounded-2xl px-6 py-4 md:px-8 md:py-5">
 
           <span className="
-            text-3xl sm:text-4xl 
+            text-2xl sm:text-3xl 
             leading-tight tracking-wide 
             font-medium 
             text-transparent bg-clip-text 
@@ -17,11 +17,11 @@ const JoinTheMovement = () => {
           </span>
           <p className="
             mt-4 
-            text-base sm:text-lg 
+            text-base sm:text-lg
             text-[#000000B2] 
             font-medium 
-            leading-relaxed 
-            tracking-wide
+            leading-[35px]
+            tracking-[4%]
           ">
             Errand Learn Hub isn’t just an e-learning platform; it’s a community.
             Together, we’re creating a future where education meets opportunity,

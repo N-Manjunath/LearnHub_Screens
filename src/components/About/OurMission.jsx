@@ -6,7 +6,7 @@ const OurMission = () => {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         <div className="text-center">
-          <span className="text-3xl leading-tight tracking-wide 
+          <span className="text-3xl leading-[50px] tracking-[4%] 
             font-medium 
             sm:text-4xl 
             text-transparent bg-clip-text
@@ -18,8 +18,8 @@ const OurMission = () => {
           {/* Body Text */}
           <p className="mt-4 max-w-7xl mx-auto text-base 
             sm:text-lg 
-            leading-relaxed 
-            tracking-wide 
+            leading-[30px] 
+            tracking-[4%]
             text-center 
             text-[#000000B2] 
             font-medium">

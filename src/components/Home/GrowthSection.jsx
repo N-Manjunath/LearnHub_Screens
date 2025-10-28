@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import logo from '../../assets/logowhite.png'
 
 
-// --- CircleSection Component (Modified) ---
 const CircleSection = ({ title, link, delay = 0, index, logoUrl }) => {
     const [isHovered, setIsHovered] = useState(false);
     const isLogoSection = !!logoUrl;
@@ -29,10 +28,10 @@ const CircleSection = ({ title, link, delay = 0, index, logoUrl }) => {
                         className="absolute z-0 hidden lg:block" // 'hidden lg:block'
                         style={{
                             width: '100%',
-                            height: '2px',
+                            height: '3px',
                             backgroundColor: connectorLine,
                             top: '50%',
-                            right: '70%', // Pulls it from the center to the left edge
+                            right: '41%', // Pulls it from the center to the left edge
                             transform: 'translateY(-50%)'
                         }}
                     >
@@ -87,13 +86,13 @@ const CircleSection = ({ title, link, delay = 0, index, logoUrl }) => {
             {/* Inner clickable circle */}
             <a
                 href={link}
-                className={'relative rounded-full flex items-center justify-center text-white font-semibold text-lg text-center shadow-2xl transition-all duration-300 z-20 cursor-pointer overflow-hidden'}
+                className={`relative rounded-full flex items-center justify-center text-white font-medium text-base text-center shadow-2xl transition-all duration-300 z-10 cursor-pointer overflow-hidden`}
                 style={{
-                    width: '50%',
-                    height: '50%',
-                    background: 'linear-gradient(135deg, #11998D 0%, #0F6EB3 100%)',
-                    transform: isHovered ? 'scale(1.1)' : 'scale(1)',
-                    boxShadow: isHovered ? '0 15px 30px rgba(15, 110, 179, 0.5)' : '0 8px 15px rgba(17, 153, 141, 0.3)',
+                    width: '45%',
+                    height: '45%',
+                    background: 'linear-gradient(135deg, rgba(17, 153, 141, 0.9) 0%, rgba(15, 110, 179, 0.9) 100%)',
+                    transform: isHovered ? 'scale(1.3)' : 'scale(1)',
+                    boxShadow: isHovered ? '0 20px 40px rgba(17, 153, 141, 0.5)' : '0 10px 25px rgba(17, 153, 141, 0.3)'
                 }}
             >
                 {/* Content: Title or Logo */}
@@ -101,10 +100,10 @@ const CircleSection = ({ title, link, delay = 0, index, logoUrl }) => {
                     <img
                         src={logoUrl}
                         alt="Learn Hub Logo"
-                        className="w-full h-full object-contain scale-125"
+                        className="w-full h-full object-contain scale-135 pb-2"
                     />
                 ) : (
-                    <span className="relative z-10 px-3 drop-shadow-lg uppercase tracking-wider text-sm md:text-base">
+                    <span className="relative z-10 px-3 drop-shadow-lg tracking-wider text-sm md:text-lg">
                         {title}
                     </span>
                 )}
@@ -136,10 +135,10 @@ const App = () => {
 
             <div className="max-w-7xl w-full z-10 px-4">
                 {/* Title */}
-                <h1 className="text-3xl md:text-4xl text-center text-gray-800 mb-4 font-bold">
-                    The Journey of <span className='text-[#0F6EB3] font-bold'>Growth</span>
+                <h1 className="text-3xl md:text-4xl text-center text-gray-800 mb-4 font-semibold">
+                    The Journey of <span className='text-[#0F6EB3] font-semibold'>Growth</span>
                 </h1>
-                <p className='text-gray-500 text-base md:text-lg text-center mb-16 md:mb-20'>
+                <p className='text-gray-700 text-base md:text-lg text-center mb-16 md:mb-20'>
                     Master essential skills with our curated learning paths
                 </p>
 
